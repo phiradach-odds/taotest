@@ -1,0 +1,21 @@
+{
+    "baseURL": "http://automationexercise.com",
+
+    "validUser":
+    {
+      "username": "standard_user",
+      "password": "secret_sauce"
+    },
+    "invalidUser": {
+      "username": "invalid_user",
+      "password": "wrong_password"
+    },
+    "noPasswordUser": {
+      "username": "standard_user",
+      "password": ""
+    },
+    "noUsernameUser": {
+      "username": "",
+      "password": "secret_sauce"
+    }
+  }
